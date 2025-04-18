@@ -25,4 +25,25 @@ console.log(boolLoggedIn)
 //0=>false; ""=>false
 
 
+//******************************** OPERATIONS ******************************//
+let value=3;
+let negValue=-value;
+console.log(negValue)
+
+let name="Nandini";
+let surname=" Chandel"
+let fullname=name+surname
+console.log(fullname);
+
+
+//Tricky Conversion
+console.log("1"+2)
+console.log(2+"1")
+console.log("2"+1+2)
+console.log(1+2+"3")
+
+
+let gameCounter=34;
+console.log(gameCounter++);
+console.log(++gameCounter);
 
