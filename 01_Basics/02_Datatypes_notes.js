@@ -40,3 +40,35 @@ const myFun=function(){
    console.log("Hey!! This is my first Function")
 }
 console.log(myFun)
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++ MEMORY  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+/*    i)Stack(Primitive)                                 ii)Heap(Non-Primitive)
+         -->The changes are made in the copy of the         -->here,we get the references all the changes
+            variable,the original value remains                are made in the original value.
+            unaffected 
+*/
+
+//Primitive Datatype
+
+let myname="Nandini"
+let name=myname
+name="Nandu"
+console.log(myname)
+console.log(name)
+
+//Non-Primitive Datatype
+
+let userOne={
+   fullname:"Nandini_Chandel",
+   email:"nandinichandel107@gmail.com",
+   rollnum:125
+
+}
+
+let userTwo=userOne
+userTwo.fullname="Shayama"
+console.log(userOne.fullname)
+
+
